@@ -1,0 +1,32 @@
+.contact-form {
+  padding: 50px;
+  padding-top: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #5F6227;
+}
+
+input {
+  padding: 8px;
+  font-size: 15px;
+}
+
+.contact-form button {
+  display:block;
+  background-color: #ADD94E;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.contact-form button:hover {
+  color: #FFFFEF;
+  background-color: #5F6227;
+}

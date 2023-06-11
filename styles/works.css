@@ -1,0 +1,71 @@
+
+
+.work-container {
+  margin: 50px;
+  padding: 0;
+  background-color: #5F6227;
+}
+
+.works-images {
+  display: flex;
+  flex-direction: row;
+  max-height: 267px;
+}
+
+.works-images img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.solarsmart-img-1 {
+  object-position: top;
+}
+
+.pawhaven-img-1 {
+  object-position: top;
+}
+
+.works-text {
+  padding: 50px;
+  position: relative;
+}
+
+.works-text h3 {
+  margin: 0;
+}
+
+.work-container p {
+  margin: 60px 0;
+  margin-bottom: 20px;
+  color: #FFFFEF;
+  max-width: 650px;
+  font-size: 17px;
+}
+
+.work-button {
+  margin-top: 0;
+}
+
+.work-date {
+  font-family:'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  float: right;
+
+}
+
+button {
+  padding: 0.7rem 1rem;
+  color: #59492A;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 0;
+  border: 0;
+  background-color: #FFFFEF;
+}
+
+button:hover {
+  background-color: #ADD94E;
+  transition: 0.4s;
+  cursor: pointer;
+}

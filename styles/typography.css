@@ -1,0 +1,61 @@
+
+.heading {
+  font-size: 73px;
+  color: #FFFFEF;
+  margin-bottom: 0px;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.22);
+}
+
+.heading, h2, h3, button, label {
+  font-family: 'Calistoga', cursive;
+}
+
+.welcome-heading {
+  font-size: 50px;
+  color: #5F6227;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.22);
+}
+
+.home-paragraph {
+  font-size: 23px;
+  color: black;
+}
+
+p {
+  font-family:'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+nav {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+  color: #FFFFEF;
+  
+}
+
+h3 {
+  color: #FFFFEF;
+  font-size: 32px;
+
+}
+
+h6 {
+  color: #FFFFEF;
+  font-family: 'Caveat', cursive;
+  margin: 0;
+}
+
+.work-language {
+  font-size: 25px;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.22);
+}
+
+
+footer {
+  font-family: 'Caveat', cursive;
+  font-size: 32px;
+}
+
+footer h6 {
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.22);
+}

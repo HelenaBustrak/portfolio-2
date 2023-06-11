@@ -1,0 +1,68 @@
+@import url("typography.css");
+@import url("navigation.css");
+@import url("works.css");
+@import url("about.css");
+@import url("contact.css");
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  
+}
+
+.home-body {
+  background-image: url(/images/portfolio_image-2.png);
+}
+
+.works-body {
+  background-image: url(/images/portfolio_image-3.png);
+}
+
+.about-body {
+  background-image: url(/images/portfolio_image-4.png);
+}
+
+.contact-body {
+  background-image: url(/images/portfolio_image-5.png);
+}
+.wrapper {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: #FEFFCE;
+  padding: 50px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  max-width: 918px;
+}
+
+.works-container, .about-container, .contact-container{
+  max-height: 650px;
+  padding: 0;
+}
+
+.works-container {
+  overflow: scroll;
+}
+
+footer {
+  height: 78px;
+  margin: 0;
+  padding: 0 20%;
+  padding-top: 50px;
+  text-align: center;
+  background-color: #5F6227;
+  color: #FFFFEF;
+}
